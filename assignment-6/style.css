@@ -1,0 +1,535 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --justify: center;
+  --align: center;
+  --color: #0065fe;
+  --margin: 0 auto;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  width: 100%;
+}
+/* header/logo/nav/button */
+header {
+  display: flex;
+  justify-content: var(--justify); /* Centers content horizontally */
+  align-items: var(--align); /* Aligns items vertically */
+  width: 100%; /* Ensures it spans the entire screen */
+  gap: 60px;
+}
+.logo {
+  margin-block-start: 7px;
+}
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 20px;
+}
+nav > ul > li > a {
+  color: black;
+  text-decoration: none;
+  list-style-type: none;
+}
+nav > ul > li > a:hover {
+  color: var(--color);
+}
+.log-try {
+  display: flex;
+  gap: 15px;
+}
+.log-try > p {
+  color: var(--color);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  transition: all 100ms ease-out;
+}
+.log-try > p:active {
+  transform: scale(1.1); /* Smart animate by scaling the text */
+}
+.log-try > button {
+  color: white;
+  font-size: 1rem;
+  line-height: 1;
+  border-radius: 15px;
+  background-color: var(--color);
+  border: 2px solid var(--color);
+  padding-inline: 7px;
+}
+main {
+  width: 100%;
+}
+.first {
+  justify-content: var(--justify);
+  align-items: var(--align);
+}
+/* intro section */
+.intro > h2 {
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
+  margin-block-end: 0px;
+}
+.intro > h2 > span {
+  color: var(--color);
+  display: inline-block;
+  padding-left: 5px;
+}
+.intro > h2 > span > img {
+  display: block;
+  position: relative;
+  top: -12px;
+  left: 40px;
+}
+.intro > p {
+  font-size: 0.7rem;
+  line-height: 1.2;
+  text-align: center;
+  width: 45%;
+  margin: var(--margin);
+}
+/* button/learn more */
+.learn > button {
+  font-size: 0.6rem;
+  line-height: 1;
+  color: #ffffff;
+  border-radius: 15px;
+  background-color: var(--color);
+  border: 2px solid var(--color);
+  padding: 7px;
+  width: 80px;
+}
+.learn > p {
+  font-size: 0.6rem;
+  line-height: 1;
+  color: var(--color);
+}
+.learn {
+  display: flex;
+  gap: 25px;
+  margin: var(--margin);
+  justify-content: var(--justify);
+  align-items: var(--align);
+  margin-block-start: 20px;
+}
+/* images */
+.some-image {
+  display: flex;
+  justify-content: var(--justify);
+  align-items: var(--align);
+  margin-block: 10px 50px;
+}
+.interlink {
+  width: 500px;
+}
+.ellipse {
+  width: 53%;
+  display: flex;
+  justify-content: var(--centery);
+  align-items: var(--center);
+  margin-block-start: -30px;
+  margin-left: 280px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+/* analytics */
+.analytics {
+  display: flex;
+  justify-content: var(--justify);
+  align-items: var(--align);
+  gap: 20px;
+  background-color: #f9fbfd;
+}
+.analytics > p {
+  font-size: 1rem;
+  line-height: 1;
+  font-weight: bold;
+}
+.analytics > p > span {
+  display: block;
+  font-size: 0.8rem;
+  line-height: 1;
+  font-weight: normal;
+  margin-block-start: 5px;
+  width: 70%;
+}
+.analytics > h3 > span {
+  display: block;
+}
+.analytics > h3 > span > span {
+  color: var(--color);
+}
+/* reason/features */
+.second {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: var(--margin);
+  margin-block-start: 40px;
+}
+.second p {
+  font-size: 0.6rem;
+  line-height: 1.3;
+  width: 230px;
+}
+.why > h3 > span {
+  color: var(--color);
+}
+.url-qr,
+.custom-data h3 {
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+.url-qr,
+.custom-data,
+.why {
+  padding: 20px;
+  padding-top: 0;
+}
+.qd {
+  padding-top: 20px;
+}
+/* pricing style */
+.perfect > h4 {
+  font-size: 1em;
+  line-height: 1;
+  text-align: center;
+  margin: 30px auto;
+  margin-block-end: 0px;
+}
+.perfect > p {
+    font-size: 0.7rem;
+    line-height: 1.2;
+    margin: 0px auto;
+    margin-block-start: 7px;
+    width: 40%;
+    text-align: center;
+  }
+.plans {
+  display: flex;
+  margin: var(--margin);
+  justify-content: var(--justify);
+  align-items: var(--align);
+  margin-block-start: 50px;
+  width: 90%;
+}
+.plans p {
+  font-size: 0.8rem;
+  line-height: 2;
+  padding-bottom: 5px;
+}
+.plans ul li {
+  font-size: 0.8rem;
+  line-height: 1;
+  list-style-type: none;
+  padding-bottom: 15px;
+}
+.bft {
+  padding-bottom: 10px;
+}
+.plans ul li::before {
+  content: url("/CSS Assignment 6/Assets/check-circle.svg"); /* Add an image */
+  display: inline-block; /* Make it behave like an image */
+  padding-right: 5px;
+}
+.basic,
+.teams {
+  border: 1px solid var(--color);
+  padding: 25px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+  z-index: 1;
+}
+.professional {
+  border: 1px solid var(--color);
+  padding: 15px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  box-shadow: 0px 4px 8px 0px #0000000d;
+  color: #ffffff;
+  position: relative;
+  z-index: 2;
+  transform: scale(1.15);
+}
+/* pricing button */
+.bttn {
+  display: flex;
+  margin: var(--margin);
+  justify-content: var(--justify);
+  align-items: var(--align);
+  margin-block-start: 50px;
+  gap: 10px;
+}
+.bttn button {
+  border-radius: 15px;
+  border: 1px solid var(--color);
+  padding: 7px;
+  font-size: 0.6rem;
+  line-height: 1;
+  color: var(--color);
+  background-color: white;
+}
+#price {
+  background-color: var(--color);
+  color: white;
+  padding-inline: 15px;
+}
+/* trim-url styles */
+.fourth {
+  width: 100%;
+  background: url("/CSS Assignment 6/Assets/lines1.png") left center no-repeat,
+    /* Left image */ url("/CSS Assignment 6/Assets/lines2.png") right center no-repeat,
+    /* Right image */
+      linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  /*background-size: 100%, 100% auto, cover;*/
+  height: 300px;
+  margin: 20px auto;
+  margin-block-end: 0px;
+  padding-block: 50px;
+}
+.trim-url {
+  background-color: white;
+  border-radius: 10px;
+  width: 28%;
+  margin: 0px auto;
+  padding-block: 15px 0px;
+  padding-inline: 25px 15px;
+}
+.input,
+#domain,
+#alias {
+  border-radius: 7px;
+  border: 1px solid var(--color);
+  width: 90%;
+  padding: 3px;
+}
+::placeholder,
+select {
+  color: var(--color);
+  font-size: 0.6rem;
+  line-height: 1;
+  padding-left: 5px;
+}
+#domain,
+#alias {
+  width: 45%;
+  margin-block-start: 7px;
+}
+.trim-url button {
+  color: white;
+  width: 90%;
+  border-radius: 10px;
+  border: 2px solid var(--color);
+  background-color: var(--color);
+  margin-block-start: 13px;
+  padding: 5px;
+  font-size: 0.6rem;
+  line-height: 1;
+}
+form > p {
+  margin-block-start: 10px;
+  font-size: 0.6rem;
+  line-height: 1.4;
+  text-align: left;
+  color: var(--color);
+  width: 100%;
+  padding-bottom: 20px;
+}
+form > p > span {
+  font-weight: bold;
+}
+/* faqs */
+.fifth > h2 {
+  font-size: 1.5rem;
+  line-height: 2;
+  text-align: center;
+  width: 60%;
+  margin: 20px auto;
+  margin-block-end: 0px;
+}
+.fifth > h2::before {
+  content: url("/CSS Assignment 6/Assets/Line.svg"); /* Add an image */
+  display: inline-block; /* Make it behave like an image */
+  padding-right: 3px;
+}
+.faqs {
+  margin: var(--margin);
+  justify-content: var(--justify);
+  align-items: var(--align);
+  width: 70%;
+}
+.faq {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+.question {
+  font-size: 0.7rem;
+  cursor: pointer;
+  list-style: none; /* Removes default arrow */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.faq-toggle {
+  font-size: 1.2rem;
+  transition: transform 0.3s ease;
+}
+/* Hide default details arrow */
+summary::-webkit-details-marker {
+  display: none;
+}
+/* Style for opened FAQ */
+details[open] .faq-toggle {
+  content: "-"; /* Changes from + to - */
+  transform: rotate(180deg);
+}
+.answer {
+  padding: 10px;
+  font-size: 16px;
+  color: #555;
+}
+/* Get started */
+.sixth {
+  background: url("/CSS Assignment 6/Assets/lines3.png") left center no-repeat,
+    /* Left image */ url("/CSS Assignment 6/Assets/lines4.png") right center no-repeat,
+    /* Right image */
+      linear-gradient(180deg, #1e3448 99.99%, rgba(30, 52, 72, 0) 100%);
+  /*background-size: 100%, 100% auto, cover;*/
+  height: 200px;
+  margin-block: 50px 0px;
+  padding-block: 50px;
+}
+.sixth > h2 {
+  text-align: center;
+  width: 60%;
+  margin: 10px auto;
+  margin-block-end: 0px;
+  color: white;
+}
+.sixth > button {
+  color: white;
+  width: 10%;
+  border-radius: 10px;
+  border: 2px solid var(--color);
+  background-color: var(--color);
+  margin-block-start: 13px;
+  margin-inline: 450px 0px;
+  padding: 5px;
+  font-size: 0.6rem;
+  line-height: 1;
+}
+/* footer */
+.last {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 90%;
+  margin: var(--margin);
+  margin-block-start: 40px;
+}
+.last ul li {
+  font-size: 0.8rem;
+  line-height: 1;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+.why-resource > p {
+  font-size: 0.8rem;
+  line-height: 1.3;
+  padding-bottom: 7px;
+}
+.last h3 {
+  padding-bottom: 10px;
+}
+#resource {
+  padding-top: 42px;
+}
+#legal {
+  padding-top: 22px;
+}
+.end {
+  display: flex;
+  flex-direction: row-reverse;
+}
+.end > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 0.6rem;
+  line-height: 1;
+  text-align: end;
+}
+@media (max-width: 855px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .intro > h2,
+  .intro > p {
+    width: 80%;
+  }
+  .learn {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .some-image {
+    flex-direction: column;
+  }
+  .second {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .plans {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .last {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .sixth > button {
+    width: 50%;
+    margin-inline: auto;
+  }
+  .trim-url {
+    width: 90%;
+  }
+  .faqs {
+    width: 90%;
+  }
+  .end {
+    flex-direction: column;
+    align-items: center;
+  }
+  .end > ul > li {
+    text-align: center;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  header,
+  main,
+  footer {
+    max-width: 2141px;
+  }
+}
+.perfect > h4 {
+    font-size: 1.4rem;
+}
+.perfect > h4 > span {
+    color: #0065fe;
+}
+.some-image {
+   
+}
+

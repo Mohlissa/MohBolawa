@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+.form-box {
+    width: 84%;
+    height: 50%;
+    padding-block: 15px;
+    padding-left: 10px;
+    background-color: #fff;
+    margin:auto;
+    
+
+}
+    
+ h1 {
+    margin-left: 480px;
+    margin-bottom: 7px;
+    font-size: 13px;
+    font-weight: 20;
+ }
+#box-head {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-size: 25px;
+   width: 61%;
+}
+input {
+    width: 85%;
+    padding: 8px;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    border: 1.8px solid whitesmoke;
+}
+select {
+    width: 93%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 22px;
+    border: 1.8px solid whitesmoke;
+}
+.first {
+    border: 1.5px solid #2ec486;
+}
+span {
+    color: #2ec486;
+    text-decoration: underline;
+}
+button {
+    background-color: #2ec486;
+    width: 95%;
+    padding-block: 7px;
+    border: #2ec486;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+#details {
+    background-color: #f7fdfc;
+    width: 25%;
+    height: 100%;
+    border: 1px solid #000;
+    margin-inline: 480px;
+}
+.about {
+    margin-block: 45px 45px;
+    padding-left: 26px;
+    padding-right: 5px;
+}
+.terms {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 80px;
+    padding-inline: 35px;
+}
+label {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+/* screen for tablet */
+@media (max-width: 1024px) {
+   .about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    }
+}

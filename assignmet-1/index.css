@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+section{
+    
+
+}
+    h1 {
+   background-color: deeppink;
+   width: 30%; 
+   text-align: center;
+   border-radius: 5px;
+   padding: 2rem;
+   font-size: 2.7rem;
+   position: absolute;
+   margin: 6rem;
+   top: -20px;
+   left: 1px;
+   
+   
+   }
+    p {
+        background-color: white;
+        padding: 3rem;
+        width: 36%;
+        border-radius: 10px;
+        font-size: 1.6rem;
+        margin-block: 100px;
+        margin-inline: 40px ;
+        padding-top: 120px;
+        
+    }
+       
+        
+        
+    

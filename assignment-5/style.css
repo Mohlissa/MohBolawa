@@ -1,0 +1,283 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #1d2c3c;
+  --left-margin: 20px;
+}
+body {
+  background-color: #f5f8fa;
+ font-family: "lato" sans-serif;
+}
+.pusher {
+  width: 100px;
+  height: 20px;
+  margin-block-start: 15px;
+  margin-inline-start: var( --left-margin);
+}
+header {
+ display: grid;
+ grid-template-columns: 1fr auto;
+ border-bottom: 2px solid #e0e6ea;
+}
+nav {
+  margin-block-start: 15px;
+}
+nav > ul > li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 25px;
+}
+nav > ul > li > a {
+  color: var(--main-color);
+  text-decoration: none;
+  list-style: none;
+  font-weight: 800;
+  font-size: 0.8rem;
+  line-height: 1;
+}
+#account {
+  border: 2px solid #646e7e;
+  border-radius: 4px;
+  padding: 5px;
+}
+ main {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  column-gap: 0px;
+ }
+.checkout {
+  background-color: white;
+  margin-block: 50px 0px;
+}
+.check {
+  border-bottom: 2px solid #f5f8fa;
+}
+.check > h3 {
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 0.8;
+  width: 50%;
+  padding: 20px 0px 15px 20px;
+  color: var(--main-color);
+}
+.info {
+  margin-block-start: 25%;
+  margin-inline-start: var(--left-margin);
+  font-weight: 700;
+  font-size: 1.1rem;
+  line-height: 0.8;
+  color: var(--main-color);
+}
+.one {
+  color: #548bc5;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #548bc5;
+  border-radius: 50%;
+  font-size: 1rem;
+  line-height: 0.7;
+  text-align: center;
+}
+.forms {
+  margin-inline-start: var(--left-margin);
+  display: flex;
+  flex-direction: column;
+}
+.form-group {
+  margin-block-start: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+.email {
+  margin-block-start: 10px;
+}
+.card {
+  margin-inline-start: var(--left-margin);
+  margin-block: 15px 30px;
+}
+label {
+  display: block;
+  margin-block-end: 5px;
+  width: 70%;
+  color: var(--main-color);
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 0.8;
+}
+.input {
+  width: 90%;
+  height: 35px;
+  padding-left: 10px;
+  border: 1px solid #edeff2;
+  border-radius: 5px;
+  background-color: #edeff2;
+}
+.submit {
+  font-weight: 500;
+  line-height: 0.8;
+  font-size: 1rem;
+  color: #ffffff;
+  background-color: #038e7d;
+  border: 2px solid #038e7d;
+  border-radius: 5px;
+  width: 85%;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-inline-start: var(--left-margin);
+}
+#support {
+  margin-inline-start: 60px;
+  margin-block: 15px 10px;
+  width: 75%;
+  font-weight: 700;
+  font-size: 0.9rem;
+  line-height: 0.8;
+}
+#hsupport > span {
+  width: 14px; /*circle diameter*/
+  height: 14px;
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+.hesitate {
+  font-weight: 400;
+  font-size: 0.8rem;
+  line-height: 0.8;
+  color: grey;
+}
+#powered {
+  text-align: center;
+  margin: 0 auto;
+  border: 2px solid #dadada;
+  border-radius: 7px;
+  background-color: #dadada;
+  color: white;
+  width: 25%;
+  font-size: 0.5rem;
+  line-height: 0.3;
+  margin-block: 25px 40px;
+  padding: 5px;
+}
+.stripe {
+  font-size: 0.7rem;
+  font-weight: 700;
+ }
+ .sidebar {
+  background-color: #1179bf;
+  margin-block: 50px 0px;
+  padding: 20px 20px 0px 30px;
+  width: 70%;
+  color: #ffffff;
+ }
+ #freelancer {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 0.8;
+  margin-block-end: 13px;
+ }
+ #ninety {
+  font-weight: 100;
+  font-size: 2.5rem;
+  line-height: 0.8;
+ }
+ #dsign {
+  font-weight: 300;
+  font-size: 1.2rem;
+  line-height: 0.8;
+  position: relative;
+  top: -13px;
+ }
+ #year {
+  font-weight: 500;
+  font-size: 1.1rem;
+  line-height: 0.8;
+ }
+ #renew {
+  font-weight: 100;
+  font-size: 1rem;
+  line-height: 1.4;
+  font-style: italic;
+  margin-block-start: 10px;
+  width: 75%;
+ }
+ .list {
+  margin-block-start: 15px;
+ }
+ .list > ul > li {
+  font-family: lato;
+  font-size: 1rem;
+  font-weight: 100;
+  line-height: 2;
+  list-style: none;
+ }
+ .list > ul > li::before {
+    content: url(media/circledmark.png);
+    display: inline-block;
+    padding-right: 5px;
+ }
+ .need {
+  margin-block-start: 20px;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.8;
+ }
+ #switch {
+  font-weight: 700;
+  display: inline;
+  border-bottom: 2px solid #b9f5ff;
+ }
+ #ftp {
+  margin-block-start: 30px;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+ }
+ .beard {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  position: relative;
+  top: 10px;
+ }
+ #kirk {
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1;
+ }
+ footer {
+  margin-block: 25px 25px;
+ }
+ footer > p {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+ }
+  
+   footer > p > span {
+    color: lightgreen;
+   }
+   @media (max-width: 767.98px) {
+    header {
+      min-width: 550px;
+    }
+    .checkout {
+      min-width: 310px
+    }
+    .sidebar {
+      width: 90%;
+      padding-bottom: 20px;
+    }
+   }

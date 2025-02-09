@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WP Pusher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <header>
+            <img src="media/wppusher-logo copy.png" alt="wp logo" class="Pusher">
+            <nav>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#"><button id="account">Account</button></a></li>
+                </ul>
+            </nav>
+    </header>
+    <main>
+     <section class="Checkout">
+          <div class="check">
+                <h3>Checkout</h3>
+        </div>
+          <form action="/submit" method="post" aria-label="Client Details">
+            <h3 class="info"> 
+                    <span class="one">1</span>Your Basic Information
+             </h3>
+                <div class="form-group">
+                <div class="forms">
+                    <label for="firstname">First Name</label>
+                    <input 
+                     type="text" 
+                     id="firstname" 
+                     name="firstname" 
+                     placeholder="Jane"
+                     class="input"
+                     />
+                </div>
+                <div class="forms">
+                    <label for="lastname">Last Name</label>
+                    <input
+                     type="text" 
+                     id="lastname" 
+                     name="lastname" 
+                     placeholder="Doe"
+                     class="input"
+                     />
+                </div>
+                </div>
+                <div class="forms">
+                    <label for="email" class="email">E-mail</label>
+                    <input
+                     type="text" 
+                     id="email"
+                     name="email"
+                     placeholder="janedoe@example.com" class="input"
+                     />
+                </div>
+                <h3 class="info">
+                    <span class="one">2</span>Your Payment Information
+                </h3>
+                <div class="card">
+                      <label for="creditcard">Credit Card</label>
+                      <input class="input" type="text" id="card" name="card" placeholder="Card Number MM/YY  CVC">
+                </div>
+            </form>
+                   <button type="submit" class="submit">Buy WP Pusher</button>    
+                <p id="support">
+                <span class="one">?</span>Need any help?
+                </span class="hesitate">Don't hesitate to contact support!</span>
+             </p>
+            <p id="powered">Powered by <span class="stripe">stripe</span></p>
+            </section>
+                <!--company's info-->
+             <section class="sidebar">
+                    <p id="freelancer">Freelancer</p>
+                    <!--per year-->
+                        <p class="year">
+                            <span id="dsign">$</span>
+                            <span id="ninety">99</span>
+                            <span id="year">/ year</span>
+                        </p>
+                    <p id="renew">Automatically renews after 1 year</p>
+                <div class="list">
+                    <ul>
+                        <li>Use on <b>5</b> client sites</li>
+                        <li>Private repositories</li>
+                        <li>Email support</li>
+                    </ul>
+                </div>
+                    <div class="need">
+                        <p>Need <b>20</b> client sites?</p>
+                        <p id="Switch">Switch to the Agency plan</p>
+                    </div>
+                        <p id="ftp">
+                            FTP is horrible to deal with. <span>WP Pusher</span>solves that issue, and the customer support is awesome!
+                        </p>
+                        <p>
+                            <img src="media/Kirk.png" alt="picture of Kirk" class="beard"><span id="kirk">Kirk Beard</span>
+                        </p>
+        </section>
+    </main>
+    <footer>
+        <p>© 2018 WP Pusher IVS  · <span>Terms of Service</span></p>
+    </footer>
+        <a href="/index.html" style="color: black">ROOT FILE</a></footer>
+</body>
+</html>

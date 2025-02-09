@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --left-margin: 24px 0px;
+    --fonts: 400 20px/30px "lato", sans-serif;
+    --space: -0.005em;
+    --some-width: 300px;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+header {
+    
+    height: 250px;
+    border-bottom: 8px solid #999;
+}
+header h2 {
+    width: 100px;
+    height: 30px;
+    font: 800 32px/38.4px "lato", sans-serif;
+    margin-block: 96px 0px;
+    margin-inline: var(--left-margin);
+    gap: 0px;
+}
+#note1 {
+   
+    height: px;
+    margin-block: 50px 0px;
+    margin-inline: var(--left-margin);
+    font: var(--fonts);
+    letter-spacing: var(--space);
+}
+#note1 span {
+    font-weight: 800;
+    color: #228622;
+}
+#note2 {
+    
+    height: 60px;
+    margin-block: 20px 0px;
+    margin-inline: var(--left-margin);
+    font: var(--fonts);
+    letter-spacing: var(--space);
+}
+main {
+   
+    height: 400px;
+    background-color: #666;
+    padding-block: 50px 0px;
+}
+section {
+    
+    height: 300px;
+    background-color: #fff;
+    border-bottom: 8px solid #999;
+}
+#keypoint {
+    width: 31%;
+    height: px;
+   padding-block: 10px 0px;
+   padding-inline: var(--left-margin);
+   font: 800 24px/28.8px "lato, sans-serif";
+   background-color: #ffbf00;
+   border-bottom: 8px solid #c90;
+}
+#educating {
+    width: 85%;
+    height: 100px;
+    margin-block: 20px 0px;
+    margin-inline: var(--left-margin);
+    font: 500 20px/25px "lato", sans-serif;
+}
+#details {
+    width: 85%;
+    height: 55px;
+    margin-block: 22px 0px;
+    margin-inline: var(--left-margin);
+    font: 500 20px/25px "lato", sans-serif;
+}
+
+/* screen for mobile */
+@media {
+    #keypoint {
+        width: 350px;
+}
+
+/* screen for tablet */
+@media (max-width: 1024px) {
+#keypoint {
+    width: 350px;
+    
+}
+}
+ /* screen for desktop */
+ @media (max-width: 1200px) {
+    #keypoint {
+        
+    }
+    }
+
+    footer {
+        background-color: black;
+        width: 8%;
+    }
