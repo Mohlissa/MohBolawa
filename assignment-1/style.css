@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #000;
+  }
+  .card {
+    font-size: 1.5rem;
+    background-color: #0a0a0a;
+    border: solid inset #0a0a0a;
+    width: 70%;
+    border-bottom: 15px solid white;
+    margin: 0 auto;
+    margin-block-start: 30px;
+  }
+  .card-title {
+    background-color: #ff1493;
+    border: solid #ff1493;
+    border-radius: 3px;
+    width: 45%;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 70px;
+    left: 80px;
+  }
+  .card-content {
+    background-color: white;
+    border-radius: 10px;
+    width: 55%;
+    padding: 40px;
+    padding-top: 100px;
+    margin-inline: 40px 0px;
+    margin-block: 0px 60px;
+    line-height: 2rem;
+  }
